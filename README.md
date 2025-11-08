@@ -3,7 +3,7 @@
 [![Udemy Course](https://img.shields.io/badge/Udemy-Cursando-blueviolet?logo=udemy)](https://www.udemy.com/course/java-curso-completo/)  
 [![Java](https://img.shields.io/badge/Java-17-orange?logo=java)](https://www.oracle.com/java/)  
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-API%20REST-brightgreen?logo=springboot)](https://spring.io/projects/spring-boot)   
-[![Progresso](https://img.shields.io/badge/Progresso-26%26-success?logo=github)](#)  
+[![Progresso](https://img.shields.io/badge/Progresso-36%36-success?logo=github)](#)  
 
 ---
 
