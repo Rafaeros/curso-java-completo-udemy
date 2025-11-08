@@ -5,6 +5,8 @@ import models.Comment;
 import models.Post;
 
 public class Main {
+
+    /* 2. StringBuilder */
     public static void main(String[] args) throws Exception {
         DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");
         Post post1 = new Post(

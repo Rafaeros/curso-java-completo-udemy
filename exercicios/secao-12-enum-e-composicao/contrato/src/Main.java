@@ -9,6 +9,13 @@ import models.enums.WorkerLevel;
 
 public class Main {
 
+    /*
+     * 1. Ler os dados de um trabalhador com N contratos (N fornecido pelo usuário).
+     * Depois, solicitar
+     * do usuário um mês e mostrar qual foi o salário do funcionário nesse mês,
+     * conforme exemplo
+     * (próxima página).
+     */
     public static void main(String[] args) throws Exception {
         Scanner sc = new Scanner(System.in);
         DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd/MM/yyyy");

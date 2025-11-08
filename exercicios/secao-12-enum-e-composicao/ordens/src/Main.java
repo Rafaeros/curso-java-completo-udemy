@@ -7,6 +7,14 @@ import models.enums.OrderStatus;
 import models.Client;
 
 public class Main {
+
+    /*
+     * 3. Ler os dados de um pedido com N itens (N fornecido pelo usuário). Depois,
+     * mostrar um
+     * sumário do pedido conforme exemplo (próxima página). Nota: o instante do
+     * pedido deve ser
+     * o instante do sistema: new Date()
+     */
     public static void main(String[] args) throws Exception {
         DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd/MM/yyyy");
         Scanner sc = new Scanner(System.in);
@@ -41,7 +49,7 @@ public class Main {
             order.addItem(new models.OrdemItem(quantity, productPrice, new models.Product(productName, productPrice)));
         }
         sc.close();
-        
+
         System.out.println("\nORDER SUMMARY:");
         System.out.println(order.toString());
 
